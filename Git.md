@@ -17,3 +17,9 @@
 - git show <tagname> - Show tagname
 - git push origin <tagname>
 
+## Branches
+Allow to work on different part of a project without interfering with the main branch
+
+- git branch <branchname> - Create a new branch
+- git branch - List all Branches
+- git checkout <branchname> - Switch between branches
