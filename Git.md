@@ -87,3 +87,37 @@ Allow to work on different part of a project without interfering with the main b
 - .gitignore tells git which files and folder to ignore to keep them out of the repo
 - touch .gitignore - Create the gitignore file. We can also do it manually
 - temp/ - Put this inside the file to ignore everything inside the folder
+
+- git rm -r --cached foldername/ - Stop tracking a folder
+- git rm --cached filename - Stop tracking a file
+
+
+# Merge conflicts
+- Merge conflict happens when we merge two branches that changed the same lines in a file
+- git status - Check which files have conflicts
+- git diff - See the differences
+- Open the conflicted file and remove, edit the file and remove the conflict markers
+- After fixing the file Add it and commit
+
+- git merge --abort - Abort the merge
+- git checkout --ours <filename> - Keep our changes
+- git checkout --theirs <filename> - Keep their changes
+
+
+# CI/CD
+- Continuous Integration and Continuous Deployment/Delivery
+- The code is automatically tested and deployed every time is pushed    
+
+1. Find bugs faster
+2. Deploy changes faster
+3. Reduce manual steps and mistakes
+4. Get quick feedback on every push
+
+## Concepts
+- Workflow: A series of jobs that run together
+- Job: A group of steps that run together
+- Step: A single task, like checking out code or running tests
+- Runner: The computer/server that runs your jobs
+- Trigger: Decides when your workflow runs
+- Environment Variables: Settings for your workflow
+- Secrets: Passwords or API keys
