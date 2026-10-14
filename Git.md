@@ -27,6 +27,7 @@ Allow to work on different part of a project without interfering with the main b
 - git branch - List all Branches
 - git checkout <branchname> - Switch between branches
 - git branch -d <branchname>
+- git branch -D <branchname>
 
 # .Gitignore
 - .gitignore - To hide files
@@ -54,3 +55,15 @@ Allow to work on different part of a project without interfering with the main b
 - git commit --amend --reset-author --no-edit - Change the author or something like that
 
 # Working in a different version of a file
+1. Create the file and add something in the main branch
+2. Add and commit the changes
+3. Create a new  branch for the new feature and use it
+4. Edit the file in the new branch
+5. Add and commit the changes
+6. git switch main - To switch between the branches and see the changes (git switch main ou git switch new)
+- ALWAYS COMMIT THE CHANGES BEFORE SWITCHING TO SEE THE CHANGES
+7. Switch to the main branch and merge. git merge <newbranch>
+8. Push
+- We can delete the branch or push it without merging
+- git push -u origin <newbranch>
+
