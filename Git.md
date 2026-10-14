@@ -4,7 +4,6 @@
 - git config --global user.email "Your Email"
 - git config --global init.defaultBranch main
 
-
 # Git commands
 - git init - Initialize empty repository
 - git status - Check file status
@@ -54,6 +53,7 @@ Allow to work on different part of a project without interfering with the main b
 - git config --global user.email "12345678+nosid-l-inod@users.noreply.github.com" - Configure the private email
 - git commit --amend --reset-author --no-edit - Change the author or something like that
 
+
 # Working in a different version of a file
 1. Create the file and add something in the main branch
 2. Add and commit the changes
@@ -67,3 +67,23 @@ Allow to work on different part of a project without interfering with the main b
 - We can delete the branch or push it without merging
 - git push -u origin <newbranch>
 
+
+# Most used
+- git status - Check the current state
+- git add . - Prepare every change to commit
+- git commit -m "message" - Save a version
+- Git push - Send the commit to github
+- git pull - Pull commits from github
+- git clone <url> - Clone a repo
+- git switch -c name - Create and switch to a new branch
+- git switch <branchname> - Switch to a new branch
+- git merge <name> - Merge to the current branch
+- git log --oneline - Check the history
+- git diff - Check uncommited changes
+
+- git blame <filename> - See who did what
+
+# .Gitignore
+- .gitignore tells git which files and folder to ignore to keep them out of the repo
+- touch .gitignore - Create the gitignore file. We can also do it manually
+- temp/ - Put this inside the file to ignore everything inside the folder
