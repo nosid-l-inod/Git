@@ -52,3 +52,5 @@ Allow to work on different part of a project without interfering with the main b
 - Copy the private email from setting, emails, under keep my email private
 - git config --global user.email "12345678+nosid-l-inod@users.noreply.github.com" - Configure the private email
 - git commit --amend --reset-author --no-edit - Change the author or something like that
+
+# Working in a different version of a file
