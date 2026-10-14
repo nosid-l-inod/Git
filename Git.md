@@ -23,3 +23,6 @@ Allow to work on different part of a project without interfering with the main b
 - git branch <branchname> - Create a new branch
 - git branch - List all Branches
 - git checkout <branchname> - Switch between branches
+
+# .Gitignore
+- .gitignore - To hide files
