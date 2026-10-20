@@ -39,6 +39,7 @@ Allow to work on different part of a project without interfering with the main b
 - ssh-add -l - List loaded SSH keys
 - ssh-add -d - Remove a key from agent
 
+(git bash)
 1. eval $(ssh-agent -s) - Enable SSH
 2. ssh-keygen -t rsa -b 4096 -C "your@email.com" - Generate SSH key
 3. (eval "$(ssh-agent -s)" ssh-add ~/.ssh/id_rsa) - Add the key to the ssh agent 
